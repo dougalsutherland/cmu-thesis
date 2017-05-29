@@ -73,6 +73,8 @@
     Pittsburgh, PA 15213
 \end{center}
 
+\vskip 1em
+
 \begin{center}
     {\bf Thesis Committee:} \\
     \@committee
@@ -97,6 +99,7 @@
 % if keywords are omitted, this page is blank
 
 \clearpage
+% XXX: skip this page when openany and no keywords
 \thispagestyle{empty}
 \@ifundefined{@keywords}{}{\vspace*{\fill} {\bf Keywords:} \@keywords}
 \cleardoublepage
